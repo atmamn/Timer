@@ -1,0 +1,77 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url('stop watch.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	min-height: 100vh;
+	display: flex;
+	place-items: center;
+	justify-content: center;
+}
+
+main{
+	width: 50%;
+	background-color: white;
+	height: 16rem;
+	border-radius: 12px;
+	text-align: center;
+	box-shadow: 0 2px 1px 3px rgb(190, 189, 189);/*rgb(177, 165, 165)*/
+}
+
+.timer{
+	margin-top: 4rem;
+	font-size: 2.5rem;
+}
+
+.buttons{
+	display: flex;
+	gap: 2rem;
+	justify-content: center;
+	margin-top: 3rem;
+}
+
+#startBtn{
+	background-color: greenyellow;
+	color: white;
+	height: 48px;
+	width: 48px;
+	border: none;
+	display: flex;
+	place-items: center;
+	justify-content: center;
+	border-radius: 50%;
+}
+
+#resetBtn{
+	display: none;
+	background-color: red;
+	color: white;
+	border: none;
+	height: 48px;
+	width: 48px;
+	border-radius: 50%;
+	text-align: center;
+}
+
+#resetBtn .material-icons{
+	display: flex;
+	place-items: center;
+	justify-content: center;
+}
+
+#pauseBtn{
+	background-color: yellow;
+	color: white;
+	height: 48px;
+	width: 48px;
+	border: none;
+	display: flex;
+	place-items: center;
+	justify-content: center;
+	border-radius: 50%;
+}
